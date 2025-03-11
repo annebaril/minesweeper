@@ -43,3 +43,7 @@ def test_is_winner(mocked_game):
     game.reveal(0, 1)
     game.reveal(2, 1)
     assert game.is_winner() == True
+
+
+def test_fail():
+    assert False
